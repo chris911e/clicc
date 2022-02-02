@@ -17,6 +17,7 @@ function autocliccUpgrade(){
     if (cliccs < btn_autocliccer_price) {
         alert("Not enough cliccs :(");
     } else {
+        cliccs -= btn_autocliccer_price;
         how_many_c_you_do_per_clicc += btn_autocliccer_boost;
         btn_autocliccer_count++;
         btn_autocliccer_boost += btn_autocliccer_price;
