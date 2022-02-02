@@ -1,4 +1,4 @@
-let real_cliccs = 0; let cliccs = 50; let how_many_c_you_do_per_clicc = 1;
+let real_cliccs = 0; let cliccs = 0; let how_many_c_you_do_per_clicc = 1;
 
 function clicc() {
     cliccs += how_many_c_you_do_per_clicc;
