@@ -22,6 +22,7 @@ function autocliccUpgrade(){
         btn_autocliccer_count++;
         btn_autocliccer_boost += btn_autocliccer_price;
         btn_autocliccer_price += btn_autocliccer_boost;
+        document.getElementById("counter").innerText = `You currently own ${cliccs} cliccs`;
         document.getElementById("how_may_c_you_do_per_clicc").innerText = `You currently do ${how_many_c_you_do_per_clicc}C per clicc`;
         document.getElementById("btn-autocliccer").innerText = `Buy AutoCliccer ${btn_autocliccer_price}C (+${btn_autocliccer_boost}C per clicc)`;
     }
