@@ -20,8 +20,8 @@ function autocliccUpgrade(){
         cliccs -= btn_autocliccer_price;
         how_many_c_you_do_per_clicc += btn_autocliccer_boost;
         btn_autocliccer_count++;
-        btn_autocliccer_boost += btn_autocliccer_price;
-        btn_autocliccer_price += btn_autocliccer_boost;
+        btn_autocliccer_boost *= 1.5;
+        btn_autocliccer_price *= 2.5;
         document.getElementById("counter").innerText = `You currently own ${cliccs} cliccs`;
         document.getElementById("how_may_c_you_do_per_clicc").innerText = `You currently do ${how_many_c_you_do_per_clicc}C per clicc`;
         document.getElementById("btn-autocliccer").innerText = `Buy AutoCliccer ${btn_autocliccer_price}C (+${btn_autocliccer_boost}C per clicc)`;
