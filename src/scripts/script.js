@@ -1,8 +1,10 @@
-let counter = 0;
+let real_cliccs = 0; let cliccs = 0; let cliccer = 1; let booster = 1; cliccer *= booster;
 
 function clicc() {
-    counter++;
-    document.getElementById("counter").innerText = counter;
+    cliccs += cliccer;
+    real_cliccs++;
+    document.getElementById("counter").innerText = cliccs + " Cliccs";
+    document.getElementById("real_cliccs").innerText = "You have clicced this button " + real_cliccs + " times"
 }
 
 const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
