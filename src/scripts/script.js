@@ -21,7 +21,7 @@ function autocliccUpgrade(){
         how_many_c_you_do_per_clicc += btn_autocliccer_boost;
         btn_autocliccer_count++;
         btn_autocliccer_boost *= 2;
-        btn_autocliccer_price *= 2;
+        btn_autocliccer_price *= 4;
         document.getElementById("counter").innerText = `You currently own ${cliccs} cliccs`;
         document.getElementById("how_may_c_you_do_per_clicc").innerText = `You currently do ${how_many_c_you_do_per_clicc}C per clicc`;
         document.getElementById("btn-autocliccer").innerText = `Buy AutoCliccer ${btn_autocliccer_price}C (+${btn_autocliccer_boost}C per clicc) (${btn_autocliccer_count})`;
@@ -41,7 +41,7 @@ function cliccyguyUpgrade() {
         how_many_c_you_do_per_clicc += btn_cliccyguy_boost;
         btn_cliccyguy_count++;
         btn_cliccyguy_boost *= 3;
-        btn_cliccyguy_price *= 18;
+        btn_cliccyguy_price *= 9;
         document.getElementById("counter").innerText = `You currently own ${cliccs} cliccs`;
         document.getElementById("how_may_c_you_do_per_clicc").innerText = `You currently do ${how_many_c_you_do_per_clicc}C per clicc`;
         document.getElementById("btn-cliccyguy").innerText = `Buy CliccyGuy ${btn_cliccyguy_price}C (+${btn_cliccyguy_boost}C per clicc) (${btn_cliccyguy_count})`;
@@ -61,7 +61,7 @@ function cliccfactoryUpgrade() {
         how_many_c_you_do_per_clicc += btn_cliccfactory_boost;
         btn_cliccfactory_count++;
         btn_cliccfactory_boost *= 4;
-        btn_cliccfactory_price *= 32;
+        btn_cliccfactory_price *= 16;
         document.getElementById("counter").innerText = `You currently own ${cliccs} cliccs`;
         document.getElementById("how_may_c_you_do_per_clicc").innerText = `You currently do ${how_many_c_you_do_per_clicc}C per clicc`;
         document.getElementById("btn-cliccfactory").innerText = `Buy CliccFactory ${btn_cliccfactory_price}C (+${btn_cliccfactory_boost}C per clicc) (${btn_cliccfactory_count})`;
